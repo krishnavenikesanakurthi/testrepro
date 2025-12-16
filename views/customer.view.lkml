@@ -9,6 +9,10 @@ view: customer {
     type: string
     sql: ${TABLE}.neighborhood ;;
   }
+  dimension: neighborhoodtest {
+    type: string
+    sql: ${TABLE}.neighborhood ;;
+  }
   measure: count {
     type: count
   }
