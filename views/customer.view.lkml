@@ -13,3 +13,5 @@ view: customer {
     type: count
   }
 }
+
+#test comment
